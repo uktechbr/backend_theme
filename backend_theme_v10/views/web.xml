@@ -9,8 +9,7 @@
 
     <template id="webclient_bootstrap"
               inherit_id="web.webclient_bootstrap"
-              name="App Drawer - Web Client"
-              >
+              name="App Drawer - Web Client">
 
         <xpath expr="//div[@class='o_sub_menu']" position="replace" />
 
@@ -98,7 +97,7 @@
     <template id="menu_secondary"
               inherit_id="web.menu_secondary"
               name="App Drawer - Secondary Menu"
-              >
+              priority="20">
 
         <xpath expr="//a[@class='o_sub_menu_logo']" position="replace" />
 
